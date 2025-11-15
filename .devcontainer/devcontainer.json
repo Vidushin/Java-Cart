@@ -1,0 +1,14 @@
+{
+  "name": "Java 17 Environment",
+  "image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
+  "postCreateCommand": "mvn -q -DskipTests package",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "forwardPorts": [8080]
+}
