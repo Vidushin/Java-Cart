@@ -1,73 +1,39 @@
-Java-Cart – Spring Boot E-Commerce Backend
+# 🛒 Java-Cart – Spring Boot E-Commerce Backend
 
-Java-Cart is a simple e-commerce backend built using Spring Boot, Spring Data JPA, and an in-memory H2 database. It provides REST APIs for listing products and managing a shopping cart.
+Java-Cart is a simple e-commerce backend application built using Spring Boot, Spring Data JPA, and an in-memory H2 database.  
+It provides REST APIs for listing products and managing a shopping cart.  
+This project was created for portfolio, resume, and learning purposes.
 
-Features
+---
 
-List available products
+## 🚀 Features
+- List all products  
+- Add items to a shopping cart  
+- View cart with product details and totals  
+- Quantity & stock validation  
+- Auto-loaded sample products on startup  
+- In-memory H2 database (no installation required)  
+- Clean layered architecture (Controller → Service → Repository)
 
-Add items to cart
+---
 
-View cart with totals
+## 🧰 Tech Stack
+- Java 17  
+- Spring Boot 3  
+- Spring Web  
+- Spring Data JPA  
+- H2 Database  
+- Maven
 
-Stock validation
+---
 
-Auto-loaded sample products (H2 DB)
+## ▶️ How to Run the Application
 
-Clean layered architecture (Controller → Service → Repository)
-
-Tech Stack
-
-Java 17
-
-Spring Boot 3
-
-Spring Web
-
-Spring Data JPA
-
-H2 Database
-
-Maven
-
-Run the Project
-mvn spring-boot:run
-
-
-App runs at:
-
-http://localhost:8080
+### **1. Clone the repository**
+```sh
+git clone https://github.com/yourusername/Java-Cart
+cd Java-Cart
 
 
-H2 Database Console:
-
-http://localhost:8080/h2-console
-JDBC URL: jdbc:h2:mem:javacartdb
-
-API Endpoints
-Get all products
-GET /api/products
-
-Add item to cart
-POST /api/cart/add
-
-
-Body:
-
-{
-  "productId": 1,
-  "quantity": 2
-}
-
-View cart
-GET /api/cart
-
-Purpose
-
-Built as a portfolio project to demonstrate:
-
-REST API development
-
-Backend architecture
-
-Spring Boot and JPA fundamentals
+git clone https://github.com/yourusername/Java-Cart
+cd Java-Cart
